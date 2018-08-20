@@ -823,8 +823,6 @@ void swServer_init(swServer *serv)
 
     //http server
     serv->http_parse_post = 1;
-    serv->http_compression = 1;
-    serv->http_gzip_level = 1;
     serv->upload_tmp_dir = sw_strdup("/tmp");
 
     //heartbeat check
